@@ -1,0 +1,15 @@
+{
+    "example_key": "example_value",
+    "jobs": [
+      {
+        "name": "Job 1",
+        "description": "Description 2",
+        "apply_url": "www.example.com"
+      },
+      {
+        "name": "Job 2",
+        "description": "Description 2",
+        "apply_url": "www.example.com"
+      }
+    ]
+}
