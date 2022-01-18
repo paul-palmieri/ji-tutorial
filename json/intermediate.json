@@ -2,13 +2,13 @@
     "example_key": "example_value",
     "jobs": [
       {
-        "name": "Intermediate Job 1",
+        "name": "Intermediate Job 3",
         "description": "Description 2",
         "contractType": "CDI",
         "apply_url": "www.example.com"
       },
       {
-        "name": "Intermediate Job 2",
+        "name": "Intermediate Job 4",
         "description": "Description 2",
         "contractType": "CDD",
         "apply_url": "www.example.com"
