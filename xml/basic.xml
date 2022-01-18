@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <example_key>example_value</example_key>
+  <jobs>
+    <name>Job 1</name>
+    <description>Description 2</description>
+    <contract_type>FULL_TIME</contract_type>
+    <apply_url>www.example.com</apply_url>
+  </jobs>
+  <jobs>
+    <name>Job 2</name>
+    <description>Description 2</description>
+    <contract_type>PART_TIME</contract_type>
+    <apply_url>www.example.com</apply_url>
+  </jobs>
+</root>
