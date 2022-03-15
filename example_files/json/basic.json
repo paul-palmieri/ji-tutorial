@@ -1,0 +1,17 @@
+{
+    "example_key": "example_value",
+    "jobs": [
+      {
+        "name": "Job 1",
+        "description": "Description 2",
+        "contract_type": "FULL_TIME",
+        "apply_url": "www.example.com/1"
+      },
+      {
+        "name": "Job 2",
+        "description": "Description 2",
+        "contract_type": "PART_TIME",
+        "apply_url": "www.example.com/2"
+      }
+    ]
+}
