@@ -5,8 +5,8 @@ import json
 import pprint
 import time
 
-pages_to_scrap = 10
-FILE_NAME = "AXA_SCRAPPING_2022_MARCH_15_WITHOUT_DUPLICATES.json"
+pages_to_scrap = 103
+FILE_NAME = "AXA_SCRAPPING_2022_MARCH_21_WITHOUT_DUPLICATES.json"
 BASE_URL = "https://recrutement.axa.fr/api/jobs?page="
 
 AXA_feed_replica = {"data":[]}
