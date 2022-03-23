@@ -5,8 +5,8 @@ import json
 import pprint
 import time
 
-pages_to_scrap = 3
-FILE_NAME = "AXA_SCRAPPING_2022_MARCH_23_WITHOUT_DUPLICATES_3_PAGES.json"
+PAGES_TO_SCRAP = 108
+FILE_NAME = "AXA_SCRAPPING_2022_MARCH_23_WITHOUT_DUPLICATES_ALL_OFFERS.json"
 BASE_URL = "https://recrutement.axa.fr/api/jobs?page="
 
 AXA_feed_replica = {"data":[]}
@@ -15,7 +15,7 @@ num_duplicates = 0
 num_offers_parsed = 0
 
 # load pages one by one
-for i in range(0, pages_to_scrap):
+for i in range(0, PAGES_TO_SCRAP):
   page_URL = BASE_URL + str(i)
 
   with urllib.request.urlopen(page_URL) as url:
